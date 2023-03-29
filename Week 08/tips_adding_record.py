@@ -1,0 +1,5 @@
+file_out = open("phonebook.txt", "a")
+new_name = input("Enter a new name to add: ")
+new_phone = input("Enter a new phone number to add: ")
+file_out.write(new_name + " " + new_phone + "\n")
+file_out.close()
